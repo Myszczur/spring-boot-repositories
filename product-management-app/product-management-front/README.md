@@ -1,4 +1,4 @@
-# Project Name
+# Product Management System
 
 ## Project Description
 
@@ -52,9 +52,3 @@ spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
-
-## Resources Used
-
-    Java Spring Boot
-    React
-    React Router
