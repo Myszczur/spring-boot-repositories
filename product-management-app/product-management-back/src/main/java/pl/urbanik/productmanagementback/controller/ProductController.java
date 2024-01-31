@@ -10,7 +10,7 @@ import pl.urbanik.productmanagementback.service.ProductService;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
-@RequestMapping("/api/v1")
+//@RequestMapping("/api/v1")
 @RequiredArgsConstructor
 public class ProductController {
 
