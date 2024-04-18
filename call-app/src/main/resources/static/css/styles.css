@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form,
+.social-icons {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    margin-top: 10px;
+    height: fit-content;
+}
+
+.social-icons {
+    align-items: center;
+}
+
+.social-icons h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0000A3;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #0000A3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #0000A3;
+    text-decoration: none;
+}
+
+.user-email {
+    font-size: 15px !important;
+}
