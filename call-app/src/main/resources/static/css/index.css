@@ -38,7 +38,7 @@ body {
 
 .connected-users h2 {
     margin-bottom: 20px;
-    font-size: 22px; /* Increase the font size for the title */
+    font-size: 33px;
 }
 
 .connected-users ul {
@@ -92,7 +92,7 @@ div.main {
 
 .new-meeting button {
     padding: 10px 20px;
-    background-color: #5CAAFF;
+    background-color: #376699;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -138,8 +138,9 @@ div.main {
 
 #logoutBtn {
     padding: 10px 20px;
+    margin-top: 20px;
     background-color: #C3362B;
-    color: #fff; /* Text color */
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
