@@ -5,9 +5,16 @@ body {
     background-color: #f1f1f1;
 }
 
-.container {
+.container-login {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
