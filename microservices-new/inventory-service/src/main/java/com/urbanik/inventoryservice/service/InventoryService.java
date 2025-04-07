@@ -8,5 +8,5 @@ import java.util.List;
 @Service
 public interface InventoryService {
 
-    List<InventoryResponseDTO> isInStock(List<String> skuCode);
+    List<InventoryResponseDTO> isInStock(List<String> skuCode) throws InterruptedException;
 }
