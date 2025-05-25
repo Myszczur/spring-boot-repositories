@@ -6,11 +6,9 @@ import lombok.*;
  * @author kurbanik
  */
 
-@Getter
-@Setter
+@Data
 @Builder
 @ToString
-@NoArgsConstructor
 @AllArgsConstructor
 public class Product {
 
