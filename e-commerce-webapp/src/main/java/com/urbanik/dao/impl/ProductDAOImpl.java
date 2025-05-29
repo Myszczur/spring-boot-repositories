@@ -26,7 +26,6 @@ public class ProductDAOImpl implements ProductDAO {
         return dataSource.getConnection();
     }
 
-
 //    private Connection getConnection() throws SQLException, IOException {
 //        DbConnection conn = new DbConnection();
 //        return conn.getConnection();
